@@ -1,0 +1,60 @@
+.SoneContent {
+  margin: calc(20px + 0%);
+  padding: calc(20px + 0%);
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "Title Title Image"
+    "Title Title Image"
+    "BlurpOne BlurpTwo BlurpThree";
+}
+
+.Title {
+  grid-area: Title;
+  font-family: Raleway-Black;
+  font-size: 64px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 68px;
+  max-width: 800px;
+}
+
+.Image {
+  grid-area: Image;
+}
+
+.BlurpOne {
+  grid-area: BlurpOne;
+  margin-top: calc(40px - 0%);
+  max-width: 450px;
+}
+
+.BlurpTwo {
+  grid-area: BlurpTwo;
+  margin-top: calc(40px - 0%);
+  max-width: 450px;
+}
+
+.BlurpThree {
+  grid-area: BlurpThree;
+  margin-top: calc(40px - 0%);
+  max-width: 450px;
+}
+
+.SoneContent h2 {
+  text-transform: uppercase;
+  font-family: Raleway-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.75px;
+}
+
+.SoneContent p {
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 22px;
+}

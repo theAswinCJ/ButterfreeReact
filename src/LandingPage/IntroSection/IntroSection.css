@@ -1,0 +1,70 @@
+:root {
+  --margin: 30px 30px 10px 30px;
+  --paddingHeader: 15px 0;
+  --paddingLogo: 5px 0;
+  --paddingImageOne: 25px 0;
+}
+
+.IntroSection {
+  /* content: url(./Assets/BG.jpg); width: 100%; */
+
+  /* Image using Background Image */
+  background-image: url("./Assets/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px 50px 30px;
+
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+
+  grid-template-areas:
+    "SiteLogo Header Header Header Header CTA"
+    "TextOne TextOne TextOne TextOne ImageOne ImageOne"
+    "BlurbOne BlurbOne BlurbTwo BlurbTwo BlurbThree BlurbThree";
+}
+
+.SiteLogo {
+  padding: var(--paddingLogo);
+  margin: var(--margin);
+  grid-area: SiteLogo;
+}
+
+.Header {
+  margin: var(--margin);
+  padding: var(--paddingHeader);
+  grid-area: Header;
+}
+
+.CTA {
+  margin: var(--margin);
+  padding-top: var(--padding);
+  grid-area: CTA;
+}
+
+.TextOne {
+  margin: var(--margin);
+  grid-area: TextOne;
+}
+
+.ImageOne {
+  margin: var(--margin);
+  padding: var(--paddingImageOne);
+  grid-area: ImageOne;
+}
+
+.BlurbOne {
+  margin: var(--margin);
+  grid-area: BlurbOne;
+}
+
+.BlurbTwo {
+  margin: var(--margin);
+  grid-area: BlurbTwo;
+}
+
+.BlurbThree {
+  margin: var(--margin);
+  grid-area: BlurbThree;
+}

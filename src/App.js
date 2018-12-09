@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import IntroSection from "./LandingPage/IntroSection/IntroSection";
+import BenefitsSection from "./LandingPage/BenefitsSection/BenefitsSection";
+import FeaturesSection from "./LandingPage/FeaturesSection/FeaturesSection";
+import FooterSection from "./LandingPage/FooterSection/FooterSection";
+import FreeTrialSection from "./LandingPage/FreeTrialSection/FreeTrialSection";
+import PricingSection from "./LandingPage/PricingSection/PricingSection";
+import SocialProofSection from "./LandingPage/SocialProofSection/SocialProofSection";
+import TechnicalProofSection from "./LandingPage/TechnicalProofSection/TechnicalProofSection";
+import TestimonialsSection from "./LandingPage/TestimonialsSection/TestimonialsSection";
+import TutorialSection from "./LandingPage/TutorialSection/TutorialSection";
+import WhosItForSection from "./LandingPage/WhosItForSection/WhosItForSection";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <IntroSection />
+        <SocialProofSection />
+        <WhosItForSection />
       </div>
     );
   }

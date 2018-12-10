@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="651px" height="50px" viewBox="0 0 651 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Input</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Section-#7" transform="translate(-638.000000, -124.000000)">
+            <g id="Input">
+                <g transform="translate(638.000000, 124.000000)">
+                    <rect id="Rectangle-23-Copy" fill="#FFFFFF" x="0" y="0" width="650" height="50" rx="25"></rect>
+                    <text id="Input-Field-Hint" opacity="0.898999989" font-family="Raleway-Regular, Raleway" font-size="16" font-weight="normal" line-spacing="26" fill="#747E80">
+                        <tspan x="41" y="27">Your Email</tspan>
+                    </text>
+                    <g id="Button" transform="translate(428.000000, 0.000000)">
+                        <path d="M0,0 L198.000873,0 C211.807509,0 223,11.1898454 223,25 L223,25 C223,38.8071187 211.807724,50 198.000873,50 L0,50 L0,0 Z" id="Rectangle-23" fill="#663399"></path>
+                        <text id="Button-Text" font-family="Raleway-Bold, Raleway" font-size="14" font-weight="bold" line-spacing="22" letter-spacing="1.575" fill="#FFFFFF">
+                            <tspan x="65.332" y="27">SUBSCRIBE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

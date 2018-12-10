@@ -1,0 +1,15 @@
+.BlurbNine h2 {
+  font-family: Raleway-Black;
+  font-size: 44px;
+  color: #303234;
+  letter-spacing: -0.24px;
+  line-height: 50px;
+}
+
+.BlurbNine p {
+  font-family: Raleway-Medium;
+  font-size: 18px;
+  color: #747e80;
+  letter-spacing: 0;
+  line-height: 28px;
+}

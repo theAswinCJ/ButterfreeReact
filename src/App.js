@@ -19,6 +19,11 @@ class App extends Component {
         <IntroSection />
         <SocialProofSection />
         <WhosItForSection />
+        <BenefitsSection />
+        <TechnicalProofSection />
+        <TutorialSection />
+        <FeaturesSection />
+        <FreeTrialSection />
       </div>
     );
   }

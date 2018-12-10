@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/butterfreereact/precache-manifest.98fbd35118ec61eba0c689d2fd73db3c.js"
+  "/ButterfreeReact/precache-manifest.c5aa350c78dae27d89aa53a6d62d6d32.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/butterfreereact/index.html", {
+workbox.routing.registerNavigationRoute("/ButterfreeReact/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

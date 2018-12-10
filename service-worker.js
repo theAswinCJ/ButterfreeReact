@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ButterfreeReact/precache-manifest.c5aa350c78dae27d89aa53a6d62d6d32.js"
+  "/ButterfreeReact/precache-manifest.07b31c48747c5ad392068f336b1fd28e.js"
 );
 
 workbox.clientsClaim();

@@ -1,0 +1,14 @@
+.SocialProofSection {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+
+#SocialProofTitle h2 {
+  font-family: Raleway-Medium;
+  font-size: 14px;
+  color: #747e80;
+  letter-spacing: 1.75px;
+  text-align: center;
+  text-transform: uppercase;
+}

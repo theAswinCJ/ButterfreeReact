@@ -1,0 +1,43 @@
+.FooterSection {
+  padding: 30px 150px 30px 150px;
+  margin: 0px auto 0px auto;
+
+  /* Image using Background Image */
+  background-image: url("../Assets/FooterBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "one two three four five"
+    "six six six seven seven";
+}
+
+#FooterColumnOne {
+  grid-area: one;
+}
+
+#FooterColumnTwo {
+  grid-area: two;
+}
+
+#FooterColumnThree {
+  grid-area: three;
+}
+
+#FooterColumnFour {
+  grid-area: four;
+}
+
+.FooterSocial {
+  grid-area: five;
+}
+
+#FooterPara {
+  grid-area: six;
+}
+
+.FooterTail {
+  grid-area: seven;
+}

@@ -1,0 +1,50 @@
+.TestimonialsSection {
+  padding: 80px 50px 80px 30px;
+  margin: 80px auto 0px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "title title title"
+    "one two three"
+    "four five six";
+
+  /* Image using Background Image */
+  background-image: url("../Assets/TestimonialsBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TestimonialsSection h2 {
+  grid-area: title;
+  margin-bottom: 100px;
+  font-family: Raleway-Black;
+  font-size: 44px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+#TestimonialOne {
+  grid-area: one;
+}
+
+#TestimonialTwo {
+  grid-area: two;
+}
+
+#TestimonialThree {
+  grid-area: three;
+}
+
+#TestimonialFour {
+  grid-area: four;
+}
+
+#TestimonialFive {
+  grid-area: five;
+}
+
+#TestimonialSix {
+  grid-area: six;
+}

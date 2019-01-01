@@ -1,0 +1,20 @@
+.LinkThree h2 {
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-family: Raleway-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.LinkThree a {
+  font-family: Raleway-Regular;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 38px;
+  display: block;
+}

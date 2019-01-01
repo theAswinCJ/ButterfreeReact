@@ -1,0 +1,12 @@
+.FooterSocial h2 {
+  font-family: Raleway-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.FooterSocial img {
+  margin: 10px;
+  margin-left: 0px;
+}

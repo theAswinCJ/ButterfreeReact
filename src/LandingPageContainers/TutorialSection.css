@@ -1,0 +1,102 @@
+.TutorialSection {
+  padding: 20px 50px 0px 30px;
+  margin: 80px auto;
+  display: grid;
+  grid-gap: 22px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+
+  grid-template-areas:
+    "nine nine nine video video video"
+    "lines lines lines lines lines lines"
+    "ten ten eleven eleven twelve twelve";
+}
+
+#TutorialTitle {
+  grid-area: nine;
+}
+
+#TutorialVideo {
+  grid-area: video;
+}
+
+#TutorialLine {
+  grid-area: lines;
+}
+
+#TutorialBlurbOne {
+  grid-area: ten;
+}
+
+#TutorialBlurbTwo {
+  grid-area: eleven;
+}
+
+#TutorialBlurbThree {
+  grid-area: twelve;
+}
+
+#TutorialTitle h2 {
+  font-family: Raleway-Black;
+  font-size: 44px;
+  color: #303234;
+  letter-spacing: -0.24px;
+  line-height: 50px;
+  text-transform: inherit;
+}
+
+#TutorialTitle p {
+  font-family: Raleway-Medium;
+  font-size: 18px;
+  color: #747e80;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+#TutorialBlurbOne h2 {
+  font-family: Raleway-SemiBold;
+  font-size: 16px;
+  color: #303234;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#TutorialBlurbOne p {
+  font-family: Raleway-Medium;
+  font-size: 18px;
+  color: #747e80;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+#TutorialBlurbTwo h2 {
+  font-family: Raleway-SemiBold;
+  font-size: 16px;
+  color: #303234;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#TutorialBlurbTwo p {
+  font-family: Raleway-Medium;
+  font-size: 18px;
+  color: #747e80;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+#TutorialBlurbThree h2 {
+  font-family: Raleway-SemiBold;
+  font-size: 16px;
+  color: #303234;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#TutorialBlurbThree p {
+  font-family: Raleway-Medium;
+  font-size: 18px;
+  color: #747e80;
+  letter-spacing: 0;
+  line-height: 28px;
+}
